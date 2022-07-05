@@ -1,0 +1,28 @@
+{
+    "lob_data": {
+        "lob_name": {
+            "name": "LOB UI DISPLAY NAME",
+            "sub_tab_name": {
+                "name": " SUB_TAB UI DISPLAY NAME",
+                "table_data": {
+                    "column_attribute": {
+                        "name": "COLUMN_ATTB UI DISPLAY NAME",
+                        "isFilter": false
+                    }
+                }
+            }
+        },
+        "MnR": {
+            "name": "MEDICARE AND RETIREMENT",
+            "configurations": {
+                "name": "CONFIGURATIONS",
+                "table_data": {
+                    "segment": {
+                        "name": "Segment",
+                        "isFilter": false
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,287 @@
+{
+    "lob_data": [
+        {
+            "name": "LOB UI DISPLAY NAME",
+            "id": 0,
+            "sub_tab_data": [
+                {
+                    "id": 0,
+                    "name": " SUB_TAB UI DISPLAY NAME",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "id": 0,
+                                "name": "COLUMN_ATTB UI DISPLAY NAME",
+                                "isFilter": false,
+                                "isSortable": false,
+                                "attribute": "keyNameLiteral"
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        },
+                        "filter_config": {
+                            
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "MEDICARE AND RETIREMENT",
+            "sub_tab_data": [
+                {
+                    "id": 0,
+                    "name": "CONFIGURATIONS",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "id": 0,
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false,
+                                "attribute": "segment"
+                            },
+                            {
+                                "id": 1,
+                                "name": "State of Member Residence",
+                                "isFilter": false,
+                                "isSortable": false,
+                                "attribute": "stateofMemberResidence"
+                            },
+                            {
+                                "id": 2,
+                                "name": "HRBP",
+                                "isFilter": false,
+                                "isSortable": false,
+                                "attribute": "hrbp"
+                            },
+                            {
+                                "id": 3,
+                                "name": "DVCN",
+                                "isFilter": false,
+                                "isSortable": false,
+                                "attribute": "dvcn"
+                            },
+                            {
+                                "id": 4,
+                                "name": "Behavioral Plan Summary",
+                                "isFilter": false,
+                                "isSortable": false,
+                                "attribute": "behavioralPlanSummary"
+                            },
+                            {
+                                "id": 5,
+                                "name": "Care Group",
+                                "isFilter": false,
+                                "isSortable": false,
+                                "attribute": "careGroup"
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        },
+                        "filter_config": {
+                            
+                        }
+                    }
+                },
+                {
+                    "id": 1,
+                    "name": "EXPORT",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "id": 0,
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 15
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "name": "IMPORT",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "name": "AUDIT LOG",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "EMPLOYER AND INDIVIDUAL",
+            "sub_tab_data": [
+                {
+                    "name": "CONFIGURATIONS",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                },
+                {
+                    "name": "EXPORT",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                },
+                {
+                    "name": "IMPORT",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                },
+                {
+                    "name": "AUDIT LOG",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "COMMUNITY AND STATE",
+            "sub_tab_data": [
+                {
+                    "name": "CONFIGURATIONS",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                },
+                {
+                    "name": "EXPORT",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                },
+                {
+                    "name": "IMPORT",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                },
+                {
+                    "name": "AUDIT LOG",
+                    "table_data": {
+                        "column_attributes": [
+                            {
+                                "name": "Segment",
+                                "isFilter": false,
+                                "isSortable": false
+                            }
+                        ],
+                        "pagination_config": {
+                            "isEnabled": true,
+                            "rowsPerPage": 10
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

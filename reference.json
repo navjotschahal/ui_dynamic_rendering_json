@@ -1,0 +1,748 @@
+{
+    "settings": [
+      {
+        "tabName": "Features",
+        "tabComponentsData": [
+          {
+            "fieldGroupName": "carePath",
+            "category": "Care Path",
+            "fields": [
+              {
+                "fieldName": "enableCarePaths",
+                "fieldType": "radio",
+                "attribute": "enableCarePaths",
+                "title": "Enable Care Paths"
+              },
+              {
+                "fieldName": "enableComplexCarePaths",
+                "fieldType": "radio",
+                "attribute": "enableComplexCarePaths",
+                "title": "Enable Complex Care Paths"
+              },
+              {
+                "fieldName": "enableBehavioralCarePaths",
+                "fieldType": "radio",
+                "attribute": "enableBehavioralCarePaths",
+                "title": "Enable Behavioral Care Paths"
+              },
+              {
+                "fieldName": "showCareChecklist",
+                "fieldType": "radio",
+                "attribute": "showCareChecklist",
+                "title": "Show Care Checklist"
+              },
+              {
+                "fieldName": "showCareteam",
+                "fieldType": "radio",
+                "attribute": "showCareteam",
+                "title": "Show Care Team"
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "costConfigurations",
+            "category": "Cost Configurations",
+            "fields": [
+              {
+                "fieldName": "costsEnabled",
+                "fieldType": "radio",
+                "attribute": "costsEnabled",
+                "title": "Enable Costs"
+              },
+              {
+                "fieldName": "costsEnabledGeoAverage",
+                "fieldType": "radio",
+                "attribute": "costsEnabledGeoAverage",
+                "title": "Enable Geo Average"
+              },
+              {
+                "fieldName": "costsEnabledOutOfPocket",
+                "fieldType": "radio",
+                "attribute": "costsEnabledOutOfPocket",
+                "title": "Enable Out of Pocket Cost"
+              },
+              {
+                "fieldName": "costsEnabledProviders",
+                "fieldType": "radio",
+                "attribute": "costsEnabledProviders",
+                "title": "Enable Provider Cost"
+              },
+              {
+                "fieldName": "showCostsForGuest",
+                "fieldType": "radio",
+                "attribute": "showCostsForGuest",
+                "title": "Show Cost for Guests"
+              },
+              {
+                "fieldName": "costsUseOrchestration",
+                "fieldType": "radio",
+                "attribute": "costsUseOrchestration",
+                "title": "Use Orchestration"
+              },
+              {
+                "fieldName": "showProviderDetailsServicesCostsTab",
+                "fieldType": "radio",
+                "attribute": "showProviderDetailsServicesCostsTab",
+                "title": "Show Provider Detail Service Cost"
+              },
+              {
+                "fieldName": "enableEnhancedCostBands",
+                "fieldType": "radio",
+                "attribute": "enableEnhancedCostBands",
+                "title": "Enhanced Cost Bands"
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "enrollment",
+            "category": "Enrollment",
+            "fields": [
+              {
+                "fieldName": "showEnrollment",
+                "fieldType": "radio",
+                "attribute": "showEnrollment",
+                "title": "Enable Enrollment"
+              },
+              {
+                "fieldName": "hasDualYearProviders",
+                "fieldType": "radio",
+                "attribute": "hasDualYearProviders",
+                "title": "Enable Dual Year Providers"
+              },
+              {
+                "fieldName": "showAcceptingNewPatients",
+                "fieldType": "radio",
+                "attribute": "showAcceptingNewPatients",
+                "title": "Enable Accepting New Patients"
+              },
+              {
+                "fieldName": "showAllProviderPlans",
+                "fieldType": "radio",
+                "attribute": "showAllProviderPlans",
+                "title": "Show All Provider Plans"
+              },
+              {
+                "fieldName": "showAlternativeMedicine",
+                "fieldType": "radio",
+                "attribute": "showAlternativeMedicine",
+                "title": "Show Alternative Medicines"
+              },
+              {
+                "fieldName": "showMedicare",
+                "fieldType": "radio",
+                "attribute": "showMedicare",
+                "title": "Show Medicare"
+              },
+              {
+                "fieldName": "showPcpGeographicDisclaimer",
+                "fieldType": "radio",
+                "attribute": "showPcpGeographicDisclaimer",
+                "title": "Show PCP Geographic Disclaimer"
+              },
+              {
+                "fieldName": "showPhysicianId",
+                "fieldType": "radio",
+                "attribute": "showPhysicianId",
+                "title": "Show Physician ID"
+              },
+              {
+                "fieldName": "shouldForcePlanYearSelection",
+                "fieldType": "radio",
+                "attribute": "shouldForcePlanYearSelection",
+                "title": "Force Plan Year Selection"
+              },
+              {
+                "fieldName": "showAllianceLogo",
+                "fieldType": "radio",
+                "attribute": "showAllianceLogo",
+                "title": "Alliance Logo"
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "generalFeatures",
+            "category": "General Features",
+            "fields": [
+              {
+                "fieldName": "nonGatedEnabled",
+                "fieldType": "radio",
+                "attribute": "nonGatedEnabled",
+                "title": "Enable Non-Gated Flow"
+              },
+              {
+                "fieldName": "enableTelemedicine",
+                "fieldType": "radio",
+                "attribute": "enableTelemedicine",
+                "title": "Enable Telemedicine"
+              },
+              {
+                "fieldName": "painManagementEnabled",
+                "fieldType": "radio",
+                "attribute": "painManagementEnabled",
+                "title": "Enable Pain Management"
+              },
+              {
+                "fieldName": "enableSingleDocEmail",
+                "fieldType": "radio",
+                "attribute": "enableSingleDocEmail",
+                "title": "Enable Single Doc Email"
+              },
+              {
+                "fieldName": "globalSearchEnabled",
+                "fieldType": "radio",
+                "attribute": "globalSearchEnabled",
+                "title": "Enable Global Search"
+              },
+              {
+                "fieldName": "suppressDocAsap",
+                "fieldType": "radio",
+                "attribute": "suppressDocAsap",
+                "title": "Suppress DocASAP Scheduling"
+              },
+              {
+                "fieldName": "enableBehavioralHealthScheduling",
+                "fieldType": "radio",
+                "attribute": "enableBehavioralHealthScheduling",
+                "title": "Behavioral Health Scheduling"
+              },
+              {
+                "fieldName": "enableMedicalHealthVirtualScheduling",
+                "fieldType": "radio",
+                "attribute": "enableMedicalHealthVirtualScheduling",
+                "title": "Medical Health Scheduling"
+              },
+              {
+                "fieldName": "showAcePlatinum",
+                "fieldType": "radio",
+                "attribute": "showAcePlatinum",
+                "title": "Ace Platinum"
+              },
+              {
+                "fieldName": "dentalExperience",
+                "fieldType": "select",
+                "attribute": "dentalExperience",
+                "title": "Dental Experience",
+                "options": [
+                  {
+                    "id": "linkOut",
+                    "label": "linkOut"
+                  },
+                  {
+                    "id": "noDental",
+                    "label": "noDental"
+                  },
+                  {
+                    "id": "rally",
+                    "label": "rally"
+                  }
+                ]
+              },
+              {
+                "fieldName": "telemedicineExperience",
+                "fieldType": "select",
+                "attribute": "telemedicineExperience",
+                "title": "Telemedicine Experience",
+                "options": [
+                  {
+                    "id": "amwell",
+                    "label": "amwell"
+                  },
+                  {
+                    "id": "none",
+                    "label": "none"
+                  },
+                  {
+                    "id": "teladoc",
+                    "label": "teladoc"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tabName": "Localizations",
+        "tabComponentsData": [
+          {
+            "fieldGroupName": "disclaimers",
+            "category": "Disclaimers",
+            "fields": [
+              {
+                "fieldName": "showAffiliateDisclaimer",
+                "fieldType": "radio",
+                "attribute": "showAffiliateDisclaimer",
+                "title": "Show Affiliate Disclaimer"
+              },
+              {
+                "fieldName": "showExternalLinkDisclaimer",
+                "fieldType": "radio",
+                "attribute": "showExternalLinkDisclaimer",
+                "title": "Show External Link Disclaimer"
+              },
+              {
+                "fieldName": "showOoaNoResultsMessage",
+                "fieldType": "radio",
+                "attribute": "showOoaNoResultsMessage",
+                "title": "Show OOA No Results Message"
+              },
+              {
+                "fieldName": "loginDisclaimer",
+                "fieldType": "textbox",
+                "attribute": "loginDisclaimer",
+                "title": "Enable Disclaimers Codes"
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "language",
+            "category": "Language",
+            "fields": [
+              {
+                "fieldName": "localesEnabled",
+                "fieldType": "multiselect",
+                "attribute": "localesEnabled",
+                "title": "Language",
+                "options": [
+                  {
+                    "id": "en-US",
+                    "label": "en-US"
+                  },
+                  {
+                    "id": "es-US",
+                    "label": "es-US"
+                  },
+                  {
+                    "id": "hm",
+                    "label": "hm"
+                  },
+                  {
+                    "id": "ht-HT",
+                    "label": "ht-HT"
+                  },
+                  {
+                    "id": "il-PH",
+                    "label": "il-PH"
+                  },
+                  {
+                    "id": "ko-US",
+                    "label": "ko-US"
+                  },
+                  {
+                    "id": "so-SO",
+                    "label": "so-SO"
+                  },
+                  {
+                    "id": "tl-PH",
+                    "label": "tl-PH"
+                  },
+                  {
+                    "id": "vi-VN",
+                    "label": "vi-VN"
+                  },
+                  {
+                    "id": "zh-TW",
+                    "label": "zh-TW"
+                  }
+                ]
+              },
+              {
+                "fieldName": "showChinese",
+                "fieldType": "radio",
+                "attribute": "showChinese",
+                "title": "Enable Chinese"
+              },
+              {
+                "fieldName": "showPortuguese",
+                "fieldType": "radio",
+                "attribute": "showPortuguese",
+                "title": "Enable Portuguese"
+              },
+              {
+                "fieldName": "showSpanish",
+                "fieldType": "radio",
+                "attribute": "showSpanish",
+                "title": "Enable Spanish"
+              },
+              {
+                "fieldName": "showVietnamese",
+                "fieldType": "radio",
+                "attribute": "showVietnamese",
+                "title": "Enable Vietnamese"
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "links",
+            "category": "Links",
+            "fields": [
+              {
+                "fieldName": "behavioralAncillaryBenefitLink",
+                "fieldType": "textbox",
+                "attribute": "behavioralAncillaryBenefitLink",
+                "title": "Behavioral Ancillary Benefit URL"
+              },
+              {
+                "fieldName": "dentalAncillaryBenefitLink",
+                "fieldType": "textbox",
+                "attribute": "dentalAncillaryBenefitLink",
+                "title": "Dental Ancillary Benefit URL"
+              },
+              {
+                "fieldName": "visionAncillaryBenefitLink",
+                "fieldType": "textbox",
+                "attribute": "visionAncillaryBenefitLink",
+                "title": "Vision Ancillary Benefit URL"
+              },
+              {
+                "fieldName": "contactUsLink",
+                "fieldType": "textbox",
+                "attribute": "contactUsLink",
+                "title": "Contact Us URL"
+              },
+              {
+                "fieldName": "emergencyNetworkDeepLink",
+                "fieldType": "textbox",
+                "attribute": "emergencyNetworkDeepLink",
+                "title": "Emergency Network Deep URL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tabName": "Customizations",
+        "tabComponentsData": [
+          {
+            "fieldGroupName": "planIdentifier",
+            "category": "Plan Identifier",
+            "fields": [
+              {
+                "fieldName": "planCode",
+                "fieldType": "textbox",
+                "attribute": "alternativeMedicineNetwork.planCode",
+                "title": "Plan Code"
+              },
+              {
+                "fieldName": "providerSearchCode",
+                "fieldType": "textbox",
+                "attribute": "alternativeMedicineNetwork.providerSearchCode",
+                "title": "Provider Search Code"
+              },
+              {
+                "fieldName": "planNameOverride",
+                "fieldType": "textbox",
+                "attribute": "planNameOverride",
+                "title": "Plan Name Override"
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "tiering",
+            "category": "Tiering",
+            "fields": [
+              {
+                "fieldName": "premiumTierEnabled",
+                "fieldType": "radio",
+                "attribute": "premiumTierEnabled",
+                "title": "Enable Premium Tier"
+              },
+              {
+                "fieldName": "showTieredHospital",
+                "fieldType": "radio",
+                "attribute": "showTieredHospital",
+                "title": "Show Tiered Hospital"
+              },
+              {
+                "fieldName": "enableNptV2Tiering",
+                "fieldType": "radio",
+                "attribute": "enableNptV2Tiering",
+                "title": "Enable NPT V2 Tiering"
+              },
+              {
+                "fieldName": "tierBadgesToShow",
+                "fieldType": "chip",
+                "attribute": "tierBadgesToShow",
+                "title": "Tier Badges To Show"
+              },
+              {
+                "fieldName": "enableCignaCareDesignation",
+                "fieldType": "radio",
+                "attribute": "enableCignaCareDesignation",
+                "title": "Enable Cigna Care Designation"
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "sortSelection",
+            "category": "Sort Selection",
+            "fields": [
+              {
+                "fieldName": "hasOnlineScheduling",
+                "fieldType": "radio",
+                "attribute": "hasOnlineScheduling",
+                "title": "Has Online Scheduling"
+              },
+              {
+                "fieldName": "suppressCostEfficiencySort",
+                "fieldType": "radio",
+                "attribute": "suppressCostEfficiencySort",
+                "title": "Suppress Cost Efficiency Sort"
+              },
+              {
+                "fieldName": "facilitySortOrder",
+                "fieldType": "autocomplete",
+                "attribute": "facilitySortOrder",
+                "title": "Facility Sort Order",
+                "options": [
+                  { "id": "preferredFacility", "label": "preferredFacility" },
+                  { "id": "preferredHospital", "label": "preferredHospital" },
+                  { "id": "nameAZ", "label": "nameAZ" },
+                  { "id": "nameZA", "label": "nameZA" },
+                  { "id": "score", "label": "score" },
+                  { "id": "rating", "label": "rating" },
+                  { "id": "scheduling", "label": "scheduling" },
+                  { "id": "freestanding", "label": "freestanding" },
+                  { "id": "preferredLabNetwork", "label": "preferredLabNetwork" },
+                  { "id": "tierOneHospital", "label": "tierOneHospital" },
+                  { "id": "tieredProviders", "label": "tieredProviders" },
+                  { "id": "distance", "label": "distance" },
+                  { "id": "preferred", "label": "preferred" },
+                  { "id": "uhpd", "label": "uhpd" },
+                  { "id": "labs", "label": "labs" },
+                  { "id": "imaging", "label": "imaging" }
+                ]
+              },
+              {
+                "fieldName": "providerSortOrder",
+                "fieldType": "autocomplete",
+                "attribute": "providerSortOrder",
+                "title": "Provider Sort Order",
+                "options": [
+                  { "id": "distance", "label": "distance" },
+                  { "id": "preferred", "label": "preferred" },
+                  { "id": "uhpd", "label": "uhpd" },
+                  { "id": "nameAZ", "label": "nameAZ" },
+                  { "id": "nameZA", "label": "nameZA" },
+                  { "id": "score", "label": "score" },
+                  { "id": "rating", "label": "rating" },
+                  { "id": "scheduling", "label": "scheduling" },
+                  { "id": "preferredHospital", "label": "preferredHospital" },
+                  { "id": "freestanding", "label": "freestanding" },
+                  { "id": "preferredLabNetwork", "label": "preferredLabNetwork" },
+                  { "id": "tierOneHospital", "label": "tierOneHospital" },
+                  { "id": "tieredProviders", "label": "tieredProviders" },
+                  { "id": "preferredFacility", "label": "preferredFacility" },
+                  { "id": "labs", "label": "labs" },
+                  { "id": "imaging", "label": "imaging" }
+  
+                ]
+              },
+              {
+                "fieldName": "hospitalSortOrder",
+                "fieldType": "autocomplete",
+                "attribute": "hospitalSortOrder",
+                "title": "Hospital Sort Order",
+                "options": [
+                  { "id": "preferredFacility", "label": "preferredFacility" },
+                  { "id": "distance", "label": "distance" },
+                  { "id": "nameAZ", "label": "nameAZ" },
+                  { "id": "nameZA", "label": "nameZA" },
+                  { "id": "score", "label": "score" },
+                  { "id": "rating", "label": "rating" },
+                  { "id": "scheduling", "label": "scheduling" },
+                  { "id": "uhpd", "label": "uhpd" },
+                  { "id": "preferred", "label": "preferred" },
+                  { "id": "preferredHospital", "label": "preferredHospital" },
+                  { "id": "freestanding", "label": "freestanding" },
+                  { "id": "preferredLabNetwork", "label": "preferredLabNetwork" },
+                  { "id": "tierOneHospital", "label": "tierOneHospital" },
+                  { "id": "tieredProviders", "label": "tieredProviders" },
+                  { "id": "labs", "label": "labs" },
+                  { "id": "imaging", "label": "imaging" }
+                ]
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "preferredProvider",
+            "category": "Preferred Provider",
+            "fields": [
+              {
+                "fieldName": "hasPreferredFacility",
+                "fieldType": "radio",
+                "attribute": "hasPreferredFacility",
+                "title": "Has Preferred Facility"
+              },
+              {
+                "fieldName": "hasPreferredHospital",
+                "fieldType": "radio",
+                "attribute": "hasPreferredHospital",
+                "title": "Has Preferred Hospital"
+              },
+              {
+                "fieldName": "hasPreferredMedicalGroup",
+                "fieldType": "radio",
+                "attribute": "hasPreferredMedicalGroup",
+                "title": "Has Preferred Medical Group"
+              },
+              {
+                "fieldName": "hasPreferredProvider",
+                "fieldType": "radio",
+                "attribute": "hasPreferredProvider",
+                "title": "Has Preferred Provider"
+              },
+              {
+                "fieldName": "hasUnpreferredProvider",
+                "fieldType": "radio",
+                "attribute": "hasUnpreferredProvider",
+                "title": "Has Unpreferred Provider"
+              },
+              {
+                "fieldName": "preferredProviderIconType",
+                "fieldType": "autocomplete",
+                "attribute": "preferredProviderIconType",
+                "title": "Preferred Provider Icon Type",
+                "options": [
+                  {
+                    "id": "diamond",
+                    "label": "diamond"
+                  },
+                  {
+                    "id": "blueDiamond",
+                    "label": "blueDiamond"
+                  },
+                  {
+                    "id": "uhgPreferred",
+                    "label": "uhgPreferred"
+                  }
+                ]
+              },
+              {
+                "fieldName": "pcpSpecialties",
+                "fieldType": "chip",
+                "attribute": "pcpSpecialties",
+                "title": "PCP Specialties"
+              }
+            ]
+          },
+          {
+            "fieldGroupName": "generalCustomizations",
+            "category": "General Customizations",
+            "fields": [
+              {
+                "fieldName": "showFreestandingFacilities",
+                "fieldType": "radio",
+                "attribute": "showFreestandingFacilities",
+                "title": "Show Freestanding Policies"
+              },
+              {
+                "fieldName": "showMapView",
+                "fieldType": "radio",
+                "attribute": "showMapView",
+                "title": "Show Map View"
+              },
+              {
+                "fieldName": "showMedicalGroupDirectory",
+                "fieldType": "radio",
+                "attribute": "showMedicalGroupDirectory",
+                "title": "Show Medical Group Directory"
+              },
+              {
+                "fieldName": "showMedicalGroupEnrollmentId",
+                "fieldType": "radio",
+                "attribute": "showMedicalGroupEnrollmentId",
+                "title": "Show Medical Enrollment ID"
+              },
+              {
+                "fieldName": "showNcqa",
+                "fieldType": "radio",
+                "attribute": "showNcqa",
+                "title": "Show NCQA"
+              },
+              {
+                "fieldName": "showOutOfNetworkProviders",
+                "fieldType": "radio",
+                "attribute": "showOutOfNetworkProviders",
+                "title": "Show Out of Network Providers"
+              },
+              {
+                "fieldName": "showPdfDirectory",
+                "fieldType": "radio",
+                "attribute": "showPdfDirectory",
+                "title": "Show PDF Directory"
+              },
+              {
+                "fieldName": "showPreferredLabNetwork",
+                "fieldType": "radio",
+                "attribute": "showPreferredLabNetwork",
+                "title": "Show Preferred Lab Network"
+              },
+              {
+                "fieldName": "showReviews",
+                "fieldType": "radio",
+                "attribute": "showReviews",
+                "title": "Show Reviews"
+              },
+              {
+                "fieldName": "showReviewsForGuests",
+                "fieldType": "radio",
+                "attribute": "showReviewsForGuests",
+                "title": "Show Reviews for Guests"
+              },
+              {
+                "fieldName": "suppressNationalGroups",
+                "fieldType": "radio",
+                "attribute": "suppressNationalGroups",
+                "title": "Suppress National Groups"
+              },
+              {
+                "fieldName": "showMyHceLink",
+                "fieldType": "radio",
+                "attribute": "showMyHceLink",
+                "title": "Show MyHCE Link"
+              },
+              {
+                "fieldName": "showSpecialtyTypeFilter",
+                "fieldType": "radio",
+                "attribute": "showSpecialtyTypeFilter",
+                "title": "Show Speciality Type Filter"
+              },
+              {
+                "fieldName": "showLogo",
+                "fieldType": "autocomplete",
+                "attribute": "showLogo",
+                "title": "Show Logo",
+                "options": [
+                  {
+                    "id": "partner",
+                    "label": "partner"
+                  },
+                  {
+                    "id": "alliance",
+                    "label": "alliance"
+                  },
+                  {
+                    "id": "client",
+                    "label": "client"
+                  },
+                  {
+                    "id": "plan",
+                    "label": "plan"
+                  },
+                  {
+                    "id": "planCode",
+                    "label": "planCode"
+                  },
+                  {
+                    "id": "clientName",
+                    "label": "clientName"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
